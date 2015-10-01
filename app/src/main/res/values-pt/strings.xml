@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda</string>
+    <string name="lbl_name">Nome</string>
+    <string name="lbl_zip_code">CEP</string>
+    <string name="lbl_city">Cidade</string>
+    <string name="lbl_state">Estado</string>
+    <string name="lbl_street">Logradouro</string>
+    <string name="lbl_neighborhood">Bairro</string>
+    <string name="lbl_save">Salvar</string>
+    <string name="txt_test">Testar</string>
+</resources>

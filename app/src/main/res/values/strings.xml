@@ -1,6 +1,12 @@
 <resources>
-    <string name="app_name">Agenda</string>
 
-    <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Agenda</string>
+    <string name="lbl_name">Name</string>
+    <string name="lbl_zip_code">Zip code</string>
+    <string name="lbl_city">City</string>
+    <string name="lbl_state">State</string>
+    <string name="lbl_street">Street</string>
+    <string name="lbl_neighborhood">Neighborhood</string>
+    <string name="lbl_save">Save</string>
+    <string name="txt_test">Test</string>
 </resources>

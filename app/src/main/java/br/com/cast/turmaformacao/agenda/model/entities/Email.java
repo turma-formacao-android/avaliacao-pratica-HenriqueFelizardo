@@ -4,9 +4,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Email implements Parcelable {
-    private Contact contact;
     private Long id;
     private String endereco_email;
+    private Contact contact;
 
     @Override
     public boolean equals(Object o) {

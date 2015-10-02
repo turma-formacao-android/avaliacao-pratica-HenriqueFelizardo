@@ -4,9 +4,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Telephone implements Parcelable {
-    private Contact contact;
     private Long id;
     private String number;
+    private Contact contact;
 
     @Override
     public boolean equals(Object o) {

@@ -9,5 +9,20 @@
     <string name="lbl_street">Logradouro</string>
     <string name="lbl_neighborhood">Bairro</string>
     <string name="lbl_save">Salvar</string>
-    <string name="txt_test">Testar</string>
+    <string name="txt_complete">Completar Campos</string>
+    <string name="msg_required">Campo requerido!</string>
+    <string name="msg_save_ok">Salvo com sucesso</string>
+    <string name="lbl_filter">Filtrar</string>
+    <string name="lbl_social">Rede social</string>
+    <string name="lbl_add">Adicionar</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_telephone">Telefone</string>
+    <string name="lbl_edit">Editar</string>
+    <string name="lbl_delete">Deletar</string>
+    <string name="lbl_confirm">Confirmar</string>
+    <string name="msg_delete">Deseja deletar?</string>
+    <string name="lbl_yes">Sim</string>
+    <string name="msg_delete_successfull">Deletado com sucesso</string>
+    <string name="lbl_no">Nao</string>
+    <string name="msg_save_success">Salvo com Sucesso</string>
 </resources>

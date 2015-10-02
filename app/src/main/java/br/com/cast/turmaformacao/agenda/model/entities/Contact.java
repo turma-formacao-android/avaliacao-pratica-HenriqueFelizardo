@@ -120,6 +120,7 @@ public class Contact implements Parcelable {
     }
 
     public Contact() {
+        address = new Address();
     }
 
     protected Contact(Parcel in) {

@@ -16,18 +16,81 @@
         android:orientation="horizontal">
 
         <EditText
+            android:id="@+id/editTextSocial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:hint="@string/lbl_social"/>
+
+        <Button
+            android:id="@+id/buttonIncludeSocial"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/lbl_add"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:hint="@string/lbl_email"/>
+
+        <Button
+            android:id="@+id/buttonIncludeEmail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/lbl_add"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextTelephone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="6"
+            android:hint="@string/lbl_telephone"/>
+
+        <Button
+            android:id="@+id/buttonIncludeTelephone"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:text="@string/lbl_add"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
             android:id="@+id/editTextZipCode"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="7"
+            android:layout_weight="6"
             android:hint="@string/lbl_zip_code"/>
 
         <Button
-            android:id="@+id/buttonTest"
+            android:id="@+id/buttonComplete"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="3"
-            android:text="@string/txt_test"/>
+            android:layout_weight="5"
+            android:text="@string/txt_complete"/>
 
     </LinearLayout>
 

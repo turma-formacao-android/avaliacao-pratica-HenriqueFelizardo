@@ -14,13 +14,16 @@ public class DatabaseHelper extends SQLiteOpenHelper {
         super(context, DATABASE_NAME, null, DATABASE_VERSION);
     }
 
-    public static DatabaseHelper getInstance(){
+    public static DatabaseHelper getInstance() {
         return new DatabaseHelper(ApplicationUtil.getContext());
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        db.execSQL(AddressContract.createTableAddres());
+        db.execSQL(ContactContract.createTableContact());
+        db.execSQL(EmailContract.createTableEmail());
+        db.execSQL(SocialContract.createTableSocial());
+        db.execSQL(TelephoneContract.createTableTelephone());
     }
 
     @Override

@@ -27,7 +27,7 @@ public class AddressService {
             conn.setRequestProperty("Accept", "application/json");
 
             int responseCode = conn.getResponseCode();
-            Log.e("getAddressByZip", "Código de retorno: " + responseCode);
+            Log.e("getAddressByZip", "Codigo de retorno: " + responseCode);
             if (responseCode == HttpURLConnection.HTTP_OK) {
                 InputStream inputStream = conn.getInputStream();
 

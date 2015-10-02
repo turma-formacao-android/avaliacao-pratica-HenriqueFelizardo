@@ -4,9 +4,9 @@ import android.os.Parcel;
 import android.os.Parcelable;
 
 public class Social implements Parcelable {
-    private Contact contact;
     private Long id;
     private String user;
+    private Contact contact;
 
     @Override
     public boolean equals(Object o) {

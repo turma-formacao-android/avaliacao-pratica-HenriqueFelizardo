@@ -203,9 +203,9 @@ public class ContactFormActivity extends AppCompatActivity {
 
             binContact();
             ContactBusinessService.save(contact);
-            TelephoneBusinessService.save(telephone);
-            EmailBusinessService.save(email);
-            SocialBusinessService.save(social);
+            //TelephoneBusinessService.save(telephone);
+            //EmailBusinessService.save(email);
+            //SocialBusinessService.save(social);
             Toast.makeText(ContactFormActivity.this, R.string.msg_save_ok, Toast.LENGTH_LONG).show();
             ContactFormActivity.this.finish();
         }

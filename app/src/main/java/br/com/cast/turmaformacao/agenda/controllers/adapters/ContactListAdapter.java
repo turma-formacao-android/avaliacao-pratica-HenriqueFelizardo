@@ -48,9 +48,6 @@ public class ContactListAdapter extends BaseAdapter {
         TextView textViewName = (TextView) listViewContacts.findViewById(R.id.txtName);
         textViewName.setText(contact.getName());
 
-        TextView textViewZip = (TextView) listViewContacts.findViewById(R.id.txtZipCode);
-        textViewName.setText(contact.getAddress().getZipCode());
-
         return listViewContacts;
     }
 }

@@ -79,7 +79,7 @@ public class ContactListActivity extends AppCompatActivity {
 
     @Override
     protected void onResume() {
-       // updateContactList();
+       //updateContactList();
         super.onResume();
     }
 
@@ -139,6 +139,7 @@ public class ContactListActivity extends AppCompatActivity {
             public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
                 ContactListAdapter adapter = (ContactListAdapter) listViewContacts.getAdapter();
                 contact = adapter.getItem(position);
+                updateContactList();
                 return false;
             }
         });
